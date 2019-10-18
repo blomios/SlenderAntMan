@@ -1,0 +1,188 @@
+fileFormatVersion: 2
+guid: 8186d91a4140ea5439b51a4ea58dd5be
+timeCreated: 1532716887
+licenseType: Store
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Base Human
+    100004: Base HumanHead
+    100006: Base HumanLCollarbone
+    100008: Base HumanLDigit11
+    100010: Base HumanLDigit12
+    100012: Base HumanLDigit21
+    100014: Base HumanLDigit22
+    100016: Base HumanLDigit31
+    100018: Base HumanLDigit32
+    100020: Base HumanLDigit41
+    100022: Base HumanLDigit42
+    100024: Base HumanLForearm
+    100026: Base HumanLPalm
+    100028: Base HumanLThigh
+    100030: Base HumanLUpperarm
+    100032: Base HumanNeck
+    100034: Base HumanPelvis
+    100036: Base HumanRCollarbone
+    100038: Base HumanRDigit11
+    100040: Base HumanRDigit12
+    100042: Base HumanRDigit21
+    100044: Base HumanRDigit22
+    100046: Base HumanRDigit31
+    100048: Base HumanRDigit32
+    100050: Base HumanRDigit41
+    100052: Base HumanRDigit42
+    100054: Base HumanRForearm
+    100056: Base HumanRibcage
+    100058: Base HumanRPalm
+    100060: Base HumanRThigh
+    100062: Base HumanRUpperarm
+    100064: Base HumanSpine1
+    100066: Base HumanSpine2
+    100068: Base HumanSpine3
+    400000: //RootNode
+    400002: Base Human
+    400004: Base HumanHead
+    400006: Base HumanLCollarbone
+    400008: Base HumanLDigit11
+    400010: Base HumanLDigit12
+    400012: Base HumanLDigit21
+    400014: Base HumanLDigit22
+    400016: Base HumanLDigit31
+    400018: Base HumanLDigit32
+    400020: Base HumanLDigit41
+    400022: Base HumanLDigit42
+    400024: Base HumanLForearm
+    400026: Base HumanLPalm
+    400028: Base HumanLThigh
+    400030: Base HumanLUpperarm
+    400032: Base HumanNeck
+    400034: Base HumanPelvis
+    400036: Base HumanRCollarbone
+    400038: Base HumanRDigit11
+    400040: Base HumanRDigit12
+    400042: Base HumanRDigit21
+    400044: Base HumanRDigit22
+    400046: Base HumanRDigit31
+    400048: Base HumanRDigit32
+    400050: Base HumanRDigit41
+    400052: Base HumanRDigit42
+    400054: Base HumanRForearm
+    400056: Base HumanRibcage
+    400058: Base HumanRPalm
+    400060: Base HumanRThigh
+    400062: Base HumanRUpperarm
+    400064: Base HumanSpine1
+    400066: Base HumanSpine2
+    400068: Base HumanSpine3
+    7400000: fly
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: fly
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 50bb4851f3b640e4bb9b3c04b30ecf6a,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
