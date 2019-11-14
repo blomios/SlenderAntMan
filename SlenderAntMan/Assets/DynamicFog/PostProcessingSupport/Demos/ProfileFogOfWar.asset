@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e6292b2c06870d4495f009f912b9600, type: 3}
+  m_Name: ProfileFogOfWar
+  m_EditorClassIdentifier: 
+  settings:
+  - {fileID: 114119248156409954}
+--- !u!114 &114119248156409954
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2932e0d8aab2a44959028cb0869a3d0b, type: 3}
+  m_Name: DynamicFogPPS
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  effectType:
+    overrideState: 1
+    value: 3
+  enableDithering:
+    overrideState: 1
+    value: 1
+  ditherStrength:
+    overrideState: 0
+    value: 0.2
+  alpha:
+    overrideState: 0
+    value: 1
+  noiseStrength:
+    overrideState: 1
+    value: 0.43
+  noiseScale:
+    overrideState: 1
+    value: 0.248
+  distance:
+    overrideState: 0
+    value: 0.013
+  distanceFallOff:
+    overrideState: 0
+    value: 1.137
+  maxDistance:
+    overrideState: 0
+    value: 1.017
+  maxDistanceFallOff:
+    overrideState: 0
+    value: 0.058
+  height:
+    overrideState: 1
+    value: 46
+  maxHeight:
+    overrideState: 1
+    value: 12
+  heightFallOff:
+    overrideState: 1
+    value: 1
+  baselineheight:
+    overrideState: 0
+    value: 0
+  clipUnderBaseline:
+    overrideState: 0
+    value: 0
+  turbulence:
+    overrideState: 0
+    value: 0
+  speed:
+    overrideState: 1
+    value: 0.07
+  windDirection:
+    overrideState: 0
+    value: {x: 1, y: 0, z: 1}
+  color:
+    overrideState: 1
+    value: {r: 0.14150944, g: 0.5660378, b: 0.5529753, a: 1}
+  color2:
+    overrideState: 1
+    value: {r: 0, g: 0, b: 0, a: 1}
+  skyHaze:
+    overrideState: 0
+    value: 201
+  skySpeed:
+    overrideState: 0
+    value: 0.322
+  skyNoiseStrength:
+    overrideState: 0
+    value: 0.678
+  skyAlpha:
+    overrideState: 0
+    value: 1
+  useDirectionalLightAsSun:
+    overrideState: 0
+    value: 0
+  fogOfWarEnabled:
+    overrideState: 1
+    value: 1
+  fogOfWarCenter:
+    overrideState: 0
+    value: {x: 0, y: 0, z: 0}
+  fogOfWarSize:
+    overrideState: 1
+    value: {x: 256, y: 0, z: 256}
+  fogOfWarTextureSize:
+    overrideState: 1
+    value: 1024
+  useXZdistance:
+    overrideState: 0
+    value: 0
+  scattering:
+    overrideState: 1
+    value: 0.92
+  scatteringColor:
+    overrideState: 0
+    value: {r: 1, g: 1, b: 0.8, a: 1}

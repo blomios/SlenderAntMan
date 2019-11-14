@@ -12,4 +12,117 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e6292b2c06870d4495f009f912b9600, type: 3}
   m_Name: Main
   m_EditorClassIdentifier: 
-  settings: []
+  settings:
+  - {fileID: 3825634408575772000}
+--- !u!114 &3825634408575772000
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2932e0d8aab2a44959028cb0869a3d0b, type: 3}
+  m_Name: DynamicFogPPS
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  effectType:
+    overrideState: 1
+    value: 1
+  enableDithering:
+    overrideState: 1
+    value: 0
+  ditherStrength:
+    overrideState: 1
+    value: 0.038
+  alpha:
+    overrideState: 1
+    value: 1
+  noiseStrength:
+    overrideState: 1
+    value: 0.377
+  noiseScale:
+    overrideState: 1
+    value: 0.033
+  distance:
+    overrideState: 1
+    value: 0.006
+  distanceFallOff:
+    overrideState: 1
+    value: 0.04
+  maxDistance:
+    overrideState: 1
+    value: 0.912
+  maxDistanceFallOff:
+    overrideState: 1
+    value: 0.0001
+  height:
+    overrideState: 1
+    value: 155
+  maxHeight:
+    overrideState: 1
+    value: 100
+  heightFallOff:
+    overrideState: 1
+    value: 1
+  baselineheight:
+    overrideState: 1
+    value: 0
+  clipUnderBaseline:
+    overrideState: 1
+    value: 0
+  turbulence:
+    overrideState: 1
+    value: 0.1
+  speed:
+    overrideState: 1
+    value: 0.03
+  windDirection:
+    overrideState: 1
+    value: {x: 1, y: 0, z: 1}
+  color:
+    overrideState: 1
+    value: {r: 0.38679248, g: 0.38679248, b: 0.38679248, a: 1}
+  color2:
+    overrideState: 1
+    value: {r: 0.21698111, g: 0.21698111, b: 0.21698111, a: 1}
+  skyHaze:
+    overrideState: 1
+    value: 224
+  skySpeed:
+    overrideState: 1
+    value: 0.3
+  skyNoiseStrength:
+    overrideState: 1
+    value: 0.1
+  skyAlpha:
+    overrideState: 1
+    value: 1
+  useDirectionalLightAsSun:
+    overrideState: 1
+    value: 1
+  fogOfWarEnabled:
+    overrideState: 0
+    value: 0
+  fogOfWarCenter:
+    overrideState: 0
+    value: {x: 0, y: 0, z: 0}
+  fogOfWarSize:
+    overrideState: 0
+    value: {x: 1024, y: 0, z: 1024}
+  fogOfWarTextureSize:
+    overrideState: 0
+    value: 256
+  useXZdistance:
+    overrideState: 1
+    value: 0
+  scattering:
+    overrideState: 1
+    value: 0.7
+  scatteringColor:
+    overrideState: 1
+    value: {r: 1, g: 1, b: 0.8, a: 1}
