@@ -27,14 +27,14 @@ public class Belt : MonoBehaviour
         if (currentCamera.transform.localEulerAngles.x <= cameraAngleToLockBelt || currentCamera.transform.localEulerAngles.x > 90)
         {
             isLocked = false;
-            refreshBeltRotation();
+            //refreshBeltRotation();
         }
         else
         {
             if (!isLocked)
             {
                 isLocked = true;
-                currentYRotationSaved = UnityEditor.TransformUtils.GetInspectorRotation(realBody.transform).y;
+                currentYRotationSaved = transform.eulerAngles.y;
             }
 
             getBeltInVision();
@@ -43,24 +43,27 @@ public class Belt : MonoBehaviour
 
     void refreshBeltRotation()
     {
-        this.gameObject.transform.rotation = currentCamera.transform.rotation;
+        //this.gameObject.transform.rotation = currentCamera.transform.rotation;
     }
 
     void getBeltInVision()
     {
-        
-        float angle = UnityEditor.TransformUtils.GetInspectorRotation(realBody.transform).y - currentYRotationSaved;
-        //Debug.Log(currentYRotationSaved + "+" + UnityEditor.TransformUtils.GetInspectorRotation(realBody.transform).y + "=" +angle);
 
-        if (Mathf.Abs(angle) > maxLockedBeltAngle)
+        transform.eulerAngles = new Vector3(0, currentYRotationSaved, 0);
+
+        if (UnityEditor.TransformUtils.GetInspectorRotation(gameObject.transform).y > maxLockedBeltAngle/2)
         {
 
+            transform.localEulerAngles = new Vector3(0, maxLockedBeltAngle/2, 0);
+            currentYRotationSaved = transform.eulerAngles.y;
 
-            UnityEditor.TransformUtils.SetInspectorRotation(gameObject.transform, new Vector3(UnityEditor.TransformUtils.GetInspectorRotation(gameObject.transform).x, UnityEditor.TransformUtils.GetInspectorRotation(gameObject.transform).y + angle, UnityEditor.TransformUtils.GetInspectorRotation(gameObject.transform).z));
+        }
+        else if (UnityEditor.TransformUtils.GetInspectorRotation(gameObject.transform).y < -maxLockedBeltAngle/2)
+        {
 
-            currentYRotationSaved = UnityEditor.TransformUtils.GetInspectorRotation(realBody.transform).y;
+            transform.localEulerAngles = new Vector3(0, -maxLockedBeltAngle/2, 0);
+            currentYRotationSaved = transform.eulerAngles.y;
 
-            
         }
     }
 }
