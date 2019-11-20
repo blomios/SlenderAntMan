@@ -50,10 +50,10 @@ MonoBehaviour:
     value: 0.033
   distance:
     overrideState: 1
-    value: 0.006
+    value: 0
   distanceFallOff:
     overrideState: 1
-    value: 0.04
+    value: 0.03
   maxDistance:
     overrideState: 1
     value: 0.912

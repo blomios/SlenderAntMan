@@ -13032,6 +13032,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 304185031}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &304440769 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1883185261795400, guid: be540b97364be0a4890e39e62ac89ed1,
+    type: 3}
+  m_PrefabInstance: {fileID: 1840035972}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &305096163
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19363,12 +19369,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   autoPopulateObjectReferences: 1
-  actualBoundaries: {fileID: 0}
-  actualHeadset: {fileID: 0}
-  actualLeftController: {fileID: 0}
-  actualRightController: {fileID: 0}
-  modelAliasLeftController: {fileID: 0}
-  modelAliasRightController: {fileID: 0}
+  actualBoundaries: {fileID: 1345819053}
+  actualHeadset: {fileID: 1849934087}
+  actualLeftController: {fileID: 1367995892}
+  actualRightController: {fileID: 1141757000}
+  modelAliasLeftController: {fileID: 456853049}
+  modelAliasRightController: {fileID: 304440769}
   cachedSystemSDKInfo:
     baseTypeName: VRTK.SDK_BaseSystem
     fallbackTypeName: VRTK.SDK_FallbackSystem
@@ -19404,6 +19410,12 @@ Transform:
   m_Father: {fileID: 1559150977}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -1.1650001, y: -63.337, z: -0.58500004}
+--- !u!1 &456853049 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1384746914293964, guid: be540b97364be0a4890e39e62ac89ed1,
+    type: 3}
+  m_PrefabInstance: {fileID: 1840035972}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &460603840
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44252,6 +44264,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.56172
       objectReference: {fileID: 0}
+    - target: {fileID: 5657826730966316210, guid: 2551ed5513f1ec64ab4b4a6206b1ca94,
+        type: 3}
+      propertyPath: shadowMapRenderTexture
+      value: 
+      objectReference: {fileID: 1496341563}
     - target: {fileID: 3763443681058784831, guid: 2551ed5513f1ec64ab4b4a6206b1ca94,
         type: 3}
       propertyPath: LightsModule.enabled
@@ -44267,11 +44284,6 @@ PrefabInstance:
       propertyPath: LightsModule.ratio
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5657826730966316210, guid: 2551ed5513f1ec64ab4b4a6206b1ca94,
-        type: 3}
-      propertyPath: shadowMapRenderTexture
-      value: 
-      objectReference: {fileID: 1496341563}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2551ed5513f1ec64ab4b4a6206b1ca94, type: 3}
 --- !u!4 &1060135646 stripped
@@ -47627,6 +47639,12 @@ Transform:
 --- !u!1 &1141755569 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1912769755149806, guid: be540b97364be0a4890e39e62ac89ed1,
+    type: 3}
+  m_PrefabInstance: {fileID: 1840035972}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1141757000 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1391022766006510, guid: be540b97364be0a4890e39e62ac89ed1,
     type: 3}
   m_PrefabInstance: {fileID: 1840035972}
   m_PrefabAsset: {fileID: 0}
