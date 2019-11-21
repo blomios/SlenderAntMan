@@ -80,7 +80,7 @@ MonoBehaviour:
     value: 0.1
   speed:
     overrideState: 1
-    value: 0.03
+    value: 0.001
   windDirection:
     overrideState: 1
     value: {x: 1, y: 0, z: 1}
