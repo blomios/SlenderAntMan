@@ -209,9 +209,9 @@ Material:
     - _1stUandVspeedZandWnoaffects: {r: 0.004, g: 0.00452, b: 0, a: 0}
     - _2ndUandVspeedZandWnoaffects: {r: -0.0015, g: -0.00225, b: 0, a: 0}
     - _BaseColor: {r: 0.31163496, g: 0.7475333, b: 0.9632353, a: 0.522}
-    - _BlendColor: {r: 0.3255576, g: 0.30147058, b: 1, a: 1}
+    - _BlendColor: {r: 0.32555756, g: 0.30147055, b: 1, a: 0.09019608}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _CubemapBaseColor: {r: 0, g: 0.5448277, b: 1, a: 1}
+    - _CubemapBaseColor: {r: 0.009122463, g: 0.21498966, b: 0.38679248, a: 1}
     - _DiffuseColor: {r: 1, g: 1, b: 1, a: 0.328}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _PrimaryUandVspeedZWNotused: {r: 0.001, g: 0.001, b: 0, a: 0}

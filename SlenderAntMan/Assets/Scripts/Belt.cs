@@ -1,6 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
 public class Belt : MonoBehaviour
 {
@@ -51,19 +54,17 @@ public class Belt : MonoBehaviour
 
         transform.eulerAngles = new Vector3(0, currentYRotationSaved, 0);
 
-        if (UnityEditor.TransformUtils.GetInspectorRotation(gameObject.transform).y > maxLockedBeltAngle/2)
+        if (transform.localEulerAngles.y > maxLockedBeltAngle/2 && transform.localEulerAngles.y < 180)
         {
 
             transform.localEulerAngles = new Vector3(0, maxLockedBeltAngle/2, 0);
             currentYRotationSaved = transform.eulerAngles.y;
 
         }
-        else if (UnityEditor.TransformUtils.GetInspectorRotation(gameObject.transform).y < -maxLockedBeltAngle/2)
+        else if (transform.localEulerAngles.y < 360-maxLockedBeltAngle/ 2 && transform.localEulerAngles.y > 180)
         {
-
             transform.localEulerAngles = new Vector3(0, -maxLockedBeltAngle/2, 0);
             currentYRotationSaved = transform.eulerAngles.y;
-
         }
     }
 }
