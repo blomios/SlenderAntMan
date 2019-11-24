@@ -12,8 +12,14 @@ public class CameraFacing : MonoBehaviour
 	public Camera cameraToLookAt;
 	void Awake() {
 		cameraToLookAt = Camera.main; }
-
-    private void FixedUpdate()
+	void Update()
     {
-    }
+        if (cameraToLookAt)
+        {
+            Vector3 v = cameraToLookAt.transform.position - transform.position;
+            v.x = v.z = 0.0f;
+            transform.LookAt(cameraToLookAt.transform.position - v);
+        }
+
+	}
 }
