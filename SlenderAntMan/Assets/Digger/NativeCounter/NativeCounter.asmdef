@@ -1,0 +1,8 @@
+{
+    "name": "NativeCounter",
+    "references": [],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true
+}

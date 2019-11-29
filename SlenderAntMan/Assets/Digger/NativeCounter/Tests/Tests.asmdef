@@ -1,0 +1,14 @@
+{
+    "name": "Tests",
+    "references": [
+        "NativeCounter"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
