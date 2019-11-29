@@ -5,6 +5,14 @@
 [Bb]uilds/
 Assets/AssetStoreTools*
 
+SlenderAntMan/[Ll]ibrary/
+SlenderAntMan/[Tt]emp/
+SlenderAntMan/[Oo]bj/
+SlenderAntMan/[Bb]uild/
+SlenderAntMan/[Bb]uilds/
+SlenderAntMan/Assets/AssetStoreTools*
+SlenderAntMan/Assets/DiggerData/
+
 # Visual Studio cache directory
 .vs/
 
